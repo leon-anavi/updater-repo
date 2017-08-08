@@ -14,12 +14,12 @@
 	<project path="meta-updater-raspberrypi" name="advancedtelematic/meta-updater-raspberrypi" remote="github" revision="krogoth" />
 	<project path="meta-updater-minnowboard" name="advancedtelematic/meta-updater-minnowboard" remote="github" revision="krogoth" />
 	<project path="meta-updater-qemux86-64" name="advancedtelematic/meta-updater-qemux86-64" remote="github" revision="krogoth" />
-	<project path="meta-updater-porter" name="advancedtelematic/meta-updater-porter" remote="github" revision="krogoth" />
+	<project path="meta-updater-porter" name="leon-anavi/meta-updater-porter" remote="github" revision="krogoth" />
 
 	<!-- BSP layers -->
 	<project path="meta-raspberrypi" name="meta-raspberrypi" remote="yocto" revision="krogoth" />
 	<project name="meta-intel" path="meta-intel" remote="yocto" revision="krogoth" />
-	<project name="AGL/meta-renesas" path="meta-renesas" remote="agl" revision="master" />
+	<project name="leon-anavi/meta-renesas" path="meta-renesas" remote="github" revision="krogoth" />
 
 	<!-- Extra layers -->
 	<project path="meta-rust" name="meta-rust/meta-rust" remote="github" revision="505ba7a172a3694d259d768aa837a0060c415750"/>
